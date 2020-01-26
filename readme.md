@@ -1,5 +1,5 @@
 # Slack Notification
-Slack NotificationはSlackのIncomming Webhookを利用して通知を送りたいときに利用できます。  
+Slack NotificationはSlackのincoming-webhookを利用して通知を送りたいときに利用できます。  
 composerでインストールしてご利用ください。
 
 # Requirement
@@ -43,7 +43,7 @@ $sn->setTargets(['USER_ID1', 'USER_ID2', '...'])
  $ php example/example.php
 ```
 ## example.phpの実行方法
-1. Slackアプリから通知を送りたいチャンネルにて、Incomming webhookアプリを追加してWebhook URLを発行する
+1. Slackアプリから通知を送りたいチャンネルにて、incoming-webhookアプリを追加してWebhook URLを発行する
 2. git clone https://github.com/osyou84/slack-notification.git
 3. トップディレクトリにて `$ php example/example.php`を実行し、Webhook URL・対象・メッセージを入力する
 
